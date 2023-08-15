@@ -1,8 +1,13 @@
 import {
     mobile,
+    gro,
+    ap,
+    cb,
+    bb,
     backend,
     creator,
     web,
+    udemy,
     javascript,
     typescript,
     html,
@@ -50,7 +55,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Poster Designer",
       icon: backend,
     },
     {
@@ -116,55 +121,59 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Farmers Market Grocery Website",
+      company_name: "ReactJS",
+      icon: gro,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Product listing for easy browsing and selection of groceries.",
+"User login and registration for personalized shopping experience.",
+"Search functionality to quickly find specific products.",
+"Efficient cart management for adding and removing items.",
+"Secure payment option and user profiles for seamless transactions."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Aarogyam Health Care Chatbot",
+      company_name: "C++",
+      icon: cb,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Apr 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Health Care Chatbot developed in C++ integrates Dijkstra's algorithm for finding shortest distances and closest hospitals.",
+"Provides users with symptom diagnosis, suggestions, and recommends nearby medical facilities.",
+"Enables online appointment booking according to disease severity and user preferences.",
+"Utilizes graph-based approach for efficient healthcare information management.",
+"A comprehensive solution for healthcare guidance and patient care using advanced algorithms."
+      ],
+    },
+    {
+      title: "Accomodation Management System",
+      company_name: "HTML CSS JS PHP OracleSQL",
+      icon: ap,
+      iconBg: "#383E56",
+      date: "Sep 2022 - Dec 2022",
+      points: [
+        "Accommodation Management System website built with HTML, CSS, JS, PHP, and Oracle SQL.",
+        "Allows users to register as owners or tenants, simplifying property management.",
+        "Enables apartment searches based on preferences, streamlining property selection.",
+        "Securely handles rent history, payments, and property details for a seamless experience.",
+        "Owners can list properties with specific constraints, enhancing property listings."
+      ],
+    },
+    {
+      title: "Blood Bank Management System",
+      company_name: "HTML CSS JS PHP MySQL",
+      icon:bb,
+      iconBg: "#383E56",
+      date: "May 2022 - July 2023",
+      points: [
+        "Blood Bank Management System web application created with HTML, CSS, JS, PHP, and MySQL.",
+"Facilitates user registration and login, allowing donors to register and request specific blood types.",
+"Enables users to search for available blood groups, make blood requests, and manage transactions.",
+"Comprehensive platform for efficient blood donation and distribution, enhancing healthcare services.",
+"An integrated solution for blood bank operations and seamless user interaction."
       ],
     },
   ];

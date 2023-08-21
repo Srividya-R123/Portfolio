@@ -14,7 +14,19 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import bootstrap from "./tech/bootstrap.png";
+import jquery from "./tech/jquery.png";
+import msex from "./tech/msex.png";
+import mspp from "./tech/mspp.png";
+import MySQL from "./tech/MySQL.png";
+import os from "./tech/os.png";
+import php from "./tech/php.png";
 import html from "./tech/html.png";
+import cisco from "./tech/cisco.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -37,6 +49,18 @@ export {
   logo,
   gro,
   cb,
+  c,
+  cpp,
+  cisco,
+  python,
+  java,
+  php,
+  bootstrap,
+  jquery,
+  msex,
+  mspp,
+  os,
+  MySQL,
   bb,
   ap,
   udemy,

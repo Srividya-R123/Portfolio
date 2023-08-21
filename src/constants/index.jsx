@@ -1,6 +1,18 @@
 import {
     mobile,
     gro,
+    c,
+    cpp,
+    python,
+    cisco,
+    java,
+    php,
+    msex,
+    mspp,
+    bootstrap,
+    jquery,
+    MySQL,
+    os,
     ap,
     cb,
     bb,
@@ -47,51 +59,55 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Python Complete course for Python Beginners",
+      icon: udemy,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Bootstrap and Jquery-Certification course for Beginners",
+      icon: udemy,
     },
     {
-      title: "Poster Designer",
-      icon: backend,
+      title: "The Complete 2023 Web Development Bootcamp",
+      icon: udemy,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Networking Essentials",
+      icon: cisco,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "JavaScript",
+      icon: javascript,
     },
+    
+   
     {
       name: "CSS 3",
       icon: css,
     },
+    
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "PHP",
+      icon: php,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
+      name: "JQuery",
+      icon: jquery,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
+    
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Node JS",
@@ -102,20 +118,36 @@ import {
       icon: mongodb,
     },
     {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "MySQL",
+      icon: MySQL,
+    },
+    {
+      name: "Oracle SQL",
+      icon: os,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "MS-Powerpoint",
+      icon: mspp,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "MS-Excel",
+      icon: msex,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "C++",
+      icon: cpp,
     },
   ];
   
@@ -126,6 +158,7 @@ import {
       icon: gro,
       iconBg: "#E6DEDD",
       date: "Aug 2023 - Present",
+      source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: [
         "Product listing for easy browsing and selection of groceries.",
 "User login and registration for personalized shopping experience.",
@@ -140,6 +173,7 @@ import {
       icon: cb,
       iconBg: "#E6DEDD",
       date: "Apr 2023 - May 2023",
+      source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: [
         "Health Care Chatbot developed in C++ integrates Dijkstra's algorithm for finding shortest distances and closest hospitals.",
 "Provides users with symptom diagnosis, suggestions, and recommends nearby medical facilities.",
@@ -154,6 +188,7 @@ import {
       icon: ap,
       iconBg: "#383E56",
       date: "Sep 2022 - Dec 2022",
+      source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: [
         "Accommodation Management System website built with HTML, CSS, JS, PHP, and Oracle SQL.",
         "Allows users to register as owners or tenants, simplifying property management.",
@@ -168,6 +203,7 @@ import {
       icon:bb,
       iconBg: "#383E56",
       date: "May 2022 - July 2023",
+      source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: [
         "Blood Bank Management System web application created with HTML, CSS, JS, PHP, and MySQL.",
 "Facilitates user registration and login, allowing donors to register and request specific blood types.",
@@ -207,68 +243,112 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Street Food Webpage",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "It is blog webpage created using html and css mediaquery.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Mediaquery",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
     },
     {
-      name: "Job IT",
+      name: "ColourPage",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "It is created using HTML, CSS grid property",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Grid",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
     },
     {
-      name: "Trip Guide",
+      name: "National flag",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "It is a simple webpage of a picture of national flag created using div tag and z-index property.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "div",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
     },
+    {
+      name: "Motivational Poster",
+      description:
+        "It is a simple webpage of motivational quote using div tag.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "div",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
+    },
+    {
+      name: "Simple website",
+      description:
+        "It is a simple website using section tag.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "div",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/Srividya-R123/Web_development_assignment.git",
+    }
+  
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };

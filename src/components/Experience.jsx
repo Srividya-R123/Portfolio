@@ -4,14 +4,13 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-
+import { github } from "../assets";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../style";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -32,8 +31,20 @@ const ExperienceCard = ({ experience }) => {
         </div>
       }
     >
-      <div>
+      <div className="flex gap-20">
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <div
+          onClick={() => window.open(experience.source_code_link, "_blank")}
+          className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+        >
+          <img
+            src={github}
+            alt='source code'
+            className='w-1/2 h-1/2 object-contain rounded-full'
+          />
+        </div>
+      </div>
+      <div>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
@@ -59,15 +70,8 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} mt-5 text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Projects.
-        </h2>
-      </motion.div>
-
+      {/* ... (motion.div and other components) */}
+      
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
@@ -81,5 +85,7 @@ const Experience = () => {
     </>
   );
 };
+
+
 
 export default SectionWrapper(Experience, "work");

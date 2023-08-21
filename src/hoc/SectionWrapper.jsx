@@ -7,9 +7,9 @@ const StarWrapper = (Component, idName) =>
   function HOC() {
     return (
       <motion.section>
-        {/* <span className='hash-span' id={idName}>
+        <span className='hash-span' id={idName}>
           &nbsp;
-        </span> */}
+        </span>
 
         <Component />
       </motion.section>

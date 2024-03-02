@@ -44,15 +44,19 @@
 
 .violet-blue-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #FFA3FD 1.9%, #40F8FF 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #FFA3FD 1.9%, #40F8FF 97.5%);
+
+  background: linear-gradient(to right, #fe8c00, #FF7043 );
 }
 .pink-blue-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #FF74B1 1.9%, #E384FF 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #FF74B1 1.9%, #E384FF 97.5%);
 }
-
+.rose{
+background: #BA5370;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F4E2D8, #BA5370); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(

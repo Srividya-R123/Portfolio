@@ -33,13 +33,26 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    learning,
+    guidance,
+    management,
+    cocurricular,
+    fun,
+    friendship,
+    sp,
+    mi,
+    per,
+    wc,
+    wa,
+    rw,
+    rc,
+    star
   } from "../assets";
   
   export const navLinks = [
@@ -49,30 +62,44 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Events",
     },
     {
-      id: "contact",
+      id: "map",
       title: "Contact",
     },
   ];
   
   const services = [
     {
-      title: "Python Complete course for Python Beginners",
-      icon: udemy,
+      title: "Fun",
+      content:"An open source of books filled with vibrant ideas.",
+      icon: fun,
     },
     {
-      title: "Bootstrap and Jquery-Certification course for Beginners",
-      icon: udemy,
+      title: "Learning",
+      content:"Inspires students to aspire.",
+      icon: learning,
     },
     {
-      title: "The Complete 2023 Web Development Bootcamp",
-      icon: udemy,
+      title: "Friendship",
+      content:"An oppurtunity to find you.",
+      icon: friendship,
     },
     {
-      title: "Networking Essentials",
-      icon: cisco,
+      title: "Co-curricular",
+      content:"Grand event hosted by PDA related to academics.",
+      icon: cocurricular,
+    },
+    {
+      title: "Management",
+      content:"This is the song of all hearts in MIT!!",
+      icon: management,
+    },
+    {
+      title: "Guidance",
+      content:"We are all ears !! Let us Know !!",
+      icon: guidance,
     },
   ];
   
@@ -88,22 +115,6 @@ import {
       icon: css,
     },
     
-    {
-      name: "PHP",
-      icon: php,
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    {
-      name: "JQuery",
-      icon: jquery,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
     
     {
       name: "Python",
@@ -153,63 +164,87 @@ import {
   
   const experiences = [
     {
-      title: "Farmers Market Grocery Website",
+      title: "Spontania",
       company_name: "ReactJS",
-      icon: gro,
-      iconBg: "#E6DEDD",
-      date: "Aug 2023 - Present",
+      image:sp,
+      icon: star,
+      iconBg: "#B71C1C",
+      date: "25-11-2021",
       source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
-      points: [
-        "Product listing for easy browsing and selection of groceries.",
-"User login and registration for personalized shopping experience.",
-"Search functionality to quickly find specific products.",
-"Efficient cart management for adding and removing items.",
-"Secure payment option and user profiles for seamless transactions."
+      points: ["PDA proudly presents the MEGA EVENT, Spontania'21 for the year 2021 in association with AUSEC, CSMIT, MIT Robotics Association, Photo Society of MIT, Quiz Club MIT, Tamil Mandram, TED Club of MIT, The MIT Quill with the germane theme “United we stand”!"
+       
       ],
     },
     {
-      title: "Aarogyam Health Care Chatbot",
+      title: "Resume Building Competition",
       company_name: "C++",
-      icon: cb,
-      iconBg: "#E6DEDD",
-      date: "Apr 2023 - May 2023",
+      image:rc,
+      icon: star,
+      iconBg: "#B71C1C",
+      date: "25-11-2021",
       source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: [
-        "Health Care Chatbot developed in C++ integrates Dijkstra's algorithm for finding shortest distances and closest hospitals.",
-"Provides users with symptom diagnosis, suggestions, and recommends nearby medical facilities.",
-"Enables online appointment booking according to disease severity and user preferences.",
-"Utilizes graph-based approach for efficient healthcare information management.",
-"A comprehensive solution for healthcare guidance and patient care using advanced algorithms."
+        "It’s time to flaunt your skills, strengths and qualities interviews as PDA proudly presents Resume Building Competition!"
       ],
     },
     {
-      title: "Accomodation Management System",
+      title: "Resume Building Webinar",
       company_name: "HTML CSS JS PHP OracleSQL",
-      icon: ap,
-      iconBg: "#383E56",
-      date: "Sep 2022 - Dec 2022",
+      icon: star,
+      image:rw,
+      iconBg: "#B71C1C",
+      date: "25-11-2021",
       source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: [
-        "Accommodation Management System website built with HTML, CSS, JS, PHP, and Oracle SQL.",
-        "Allows users to register as owners or tenants, simplifying property management.",
-        "Enables apartment searches based on preferences, streamlining property selection.",
-        "Securely handles rent history, payments, and property details for a seamless experience.",
-        "Owners can list properties with specific constraints, enhancing property listings."
+        "Don’t let your resume go unnoticed: take charge, and follow our detailed webinar on ”RESUME BUILDING”, conducted by GEEKS FOR GEEKS and learn how to get your foot in the door and market your greatest commodity: yourself, through your resumè!"
       ],
     },
     {
-      title: "Blood Bank Management System",
+      title: "Mock Interview",
       company_name: "HTML CSS JS PHP MySQL",
-      icon:bb,
-      iconBg: "#383E56",
-      date: "May 2022 - July 2023",
+      icon: star,
+      image:mi,
+      iconBg: "#B71C1C",
+      date: "25-11-2021",
       source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: [
-        "Blood Bank Management System web application created with HTML, CSS, JS, PHP, and MySQL.",
-"Facilitates user registration and login, allowing donors to register and request specific blood types.",
-"Enables users to search for available blood groups, make blood requests, and manage transactions.",
-"Comprehensive platform for efficient blood donation and distribution, enhancing healthcare services.",
-"An integrated solution for blood bank operations and seamless user interaction."
+        "Get ready to ace your placement/intern interviews as PDA proudly presents Mock Interviews!"
+      ],
+    },
+    {
+      title: "Weekly Aptitude Sessions",
+      company_name: "C++",
+      icon: star,
+      image:wa,
+      iconBg: "#B71C1C",
+      date: "25-11-2021",
+      source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
+      points: [
+       "Ace the Aptitude Concepts and Questions using tricks and strategies with PDA's Weekly Sessions on Aptitude and Logical Reasoning!"
+      ],
+    },
+    {
+      title: "Weekly Coding Sessions",
+      company_name: "C++",
+      icon: star,
+      image:wc,
+      iconBg: "#B71C1C",
+      date: "25-11-2021",
+      source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
+      points: [
+        "Ace the Coding Round using tactics and strategies with PDA's Weekly Sessions on Coding!"
+      ],
+    },
+    {
+      title: "Persofest",
+      company_name: "C++",
+      icon: star,
+      image:per,
+      iconBg: "#B71C1C",
+      date: "25-11-2021",
+      source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
+      points: [
+        "Put your skills to the test and explore your talents at PDA's own Persofest!"
       ],
     },
   ];

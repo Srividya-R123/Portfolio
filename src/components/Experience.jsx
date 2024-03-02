@@ -1,4 +1,5 @@
 import React from "react";
+import "./experience.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -14,44 +15,31 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
+     
       contentStyle={{
-        background: "#1d1836",
+        background: "linear-gradient(to right, #ff416c, #ff4b2b)",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
+     
       icon={
-        <div className='flex justify-center items-center w-full h-full'>
+        <div className='flex justify-center items-center w-full h-full '>
           <img
             src={experience.icon}
-            alt={experience.company_name}
             className='w-[90%] h-[90%] object-contain rounded-full'
           />
         </div>
       }
     >
-      <div className="flex gap-20">
+      <div className="gap-20">
+        <center><img src={experience.image} className="h-[300px] w-[300px]" /></center>
+        <br/>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-        <div
-          onClick={() => window.open(experience.source_code_link, "_blank")}
-          className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-        >
-          <img
-            src={github}
-            alt='source code'
-            className='w-1/2 h-1/2 object-contain rounded-full'
-          />
-        </div>
+       
       </div>
-      <div>
-        <p
-          className='text-secondary text-[16px] font-semibold'
-          style={{ margin: 0 }}
-        >
-          {experience.company_name}
-        </p>
-      </div>
+      
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
@@ -63,6 +51,10 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <br/>
+      <div class="container">
+		<div class="btn"><a href="#">Apply Now</a></div>
+		</div>
     </VerticalTimelineElement>
   );
 };
@@ -72,8 +64,10 @@ const Experience = () => {
     <>
       {/* ... (motion.div and other components) */}
       
-      <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
+      <div className='mt-5 flex flex-col'>
+        <h2 className="font-black text-blue text-[40px] text-black ml-[100px] py-5" style={{ animation: 'inner-left 1s 1s ease both, text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both'}}>Events</h2>
+        <VerticalTimeline lineColor={'#1d2671'}>
+        
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}

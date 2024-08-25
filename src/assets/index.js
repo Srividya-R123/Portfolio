@@ -35,7 +35,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import Flag from "./Flag.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -54,6 +54,26 @@ import bb from './bb.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+<<<<<<< HEAD
+import color from "./color_page.jpeg";
+import Food from "./Food.jpeg";
+import poster from "./poster.jpeg";
+import simple from "./simple.png";
+import matlab from "./matlab.jpg";
+import Forage from "./Forage.jpg";
+import Simplilearn from "./Simplilearn.png";
+import Pentafox from "./Pentafox.jpg";
+export {
+  Forage,
+  Simplilearn,
+  Pentafox,
+  simple,
+  matlab,
+  poster,
+  Food,
+  color,
+  Flag,
+=======
 import email from "./message.png"
 import phone from "./application.png"
 import glass from "./searchglass.png"
@@ -125,6 +145,7 @@ export {
   email,
   glass,
   phone,
+>>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7
   logo,
   gro,
   cb,

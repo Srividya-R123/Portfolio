@@ -39,6 +39,17 @@ import {
     jobit,
     tripguide,
     threejs,
+<<<<<<< HEAD
+    Flag,
+    Food,
+    color,
+    poster,
+    simple,
+    matlab,
+    Forage,
+    Pentafox,
+    Simplilearn
+=======
     learning,
     guidance,
     management,
@@ -53,6 +64,7 @@ import {
     rw,
     rc,
     star
+>>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7
   } from "../assets";
   
   export const navLinks = [
@@ -72,6 +84,26 @@ import {
   
   const services = [
     {
+<<<<<<< HEAD
+      title: "Python Complete course for Python Beginners",
+      icon: udemy,
+      link:"https://drive.google.com/file/d/1hvsYnP3caId3SbptRPf-7FeEi6TqMQWN/view?usp=drive_link",
+    },
+    {
+      title: "Bootstrap and Jquery-Certification course for Beginners",
+      icon: udemy,
+      link:"https://drive.google.com/file/d/1WYrf5wQCcaI8hkPXzkiqD6gwb5HbAoad/view?usp=drive_link",
+    },
+    {
+      title: "The Complete 2024 Web Development Bootcamp",
+      icon: udemy,
+      link:"",
+    },
+    {
+      title: "Networking Essentials",
+      icon: cisco,
+      link:"https://drive.google.com/file/d/1ev5KgmwH06MR6n4DQ6AvUF9cGcqZ2zy-/view?usp=drive_link",
+=======
       title: "Fun",
       content:"An open source of books filled with vibrant ideas.",
       icon: fun,
@@ -100,7 +132,24 @@ import {
       title: "Guidance",
       content:"We are all ears !! Let us Know !!",
       icon: guidance,
+>>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7
     },
+    {
+      title: "Basics of UI and UX",
+      icon: Simplilearn,
+      link:"https://drive.google.com/file/d/1I4AlM6tkFzyIi9GCcpZe7HUcFxxQhZ0M/view?usp=drive_link",
+    },
+    {
+      title: "Web Development Internship",
+      icon: Pentafox,
+      link:"https://drive.google.com/file/d/1pAkGRyLj1yRpgR5VaYUd9P0ZpuGSRg5I/view?usp=drive_link",
+    },
+    {
+      title: "Data Analytics and Visualization Job Simulation by Accenture",
+      icon: Forage,
+      link:"https://drive.google.com/file/d/1TteNlPf4PhBGi-HGZz_8Z0BBkTJiR1eO/view?usp=sharing",
+    },
+
   ];
   
   const technologies = [
@@ -164,12 +213,45 @@ import {
   
   const experiences = [
     {
+<<<<<<< HEAD
+      title: "Multi-robot Automatic Scheduling System",
+      company_name: "HTML CSS Flask MongoDB Atlas Machine Learning",
+      icon:cb,
+      iconBg: "#383E56",
+      date: "Jan 2024 - May 2024",
+      source_code_link:"",
+      points: [
+        "RoboServe is a dynamic website built with Python Flask and MongoDB Atlas. ",
+        "Guests can browse robot information, users (especially from the medical field) can access hospital details, request robots, and input patient data, while admins manage robot allocation and scheduling to fulfill user requests efficiently.",
+        "Allocation of different kinds of robot for different health conditions of patients like age, disease severity using machine learning algorithms like svm, random forest classfier and KNN and compared the accuracy of each"
+      ],
+    },
+    {
+      title: "Brain Tumor Detection",
+      company_name: "Matlab Machine Learning",
+      icon:matlab,
+      iconBg: "#383E56",
+      date: "Jan 2024 - May 2024",
+      source_code_link:"",
+      points: [
+        "MRI Images of Brain were divided into 2 classesA Matlab code is written to segment the tumor and classify it as Benign or Malignant using Random forest classifier.",
+        "Required image processing is done like conversion to grey image ,applied high boost filter and segmentation and trained using 80% data and tested using 20% data"
+      ],
+    },
+    {
+      title: "Farmers Market Grocery Website",
+      company_name: "ReactJS",
+      icon: gro,
+      iconBg: "#E6DEDD",
+      date: "Aug 2023 - Sep 2023",
+=======
       title: "Spontania",
       company_name: "ReactJS",
       image:sp,
       icon: star,
       iconBg: "#B71C1C",
       date: "25-11-2021",
+>>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7
       source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: ["PDA proudly presents the MEGA EVENT, Spontania'21 for the year 2021 in association with AUSEC, CSMIT, MIT Robotics Association, Photo Society of MIT, Quiz Club MIT, Tamil Mandram, TED Club of MIT, The MIT Quill with the germane theme “United we stand”!"
        
@@ -295,7 +377,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: Food,
       source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
     },
     {
@@ -316,7 +398,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: color,
       source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
     },
     {
@@ -337,7 +419,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: Flag,
       source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
     },
     {
@@ -358,7 +440,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: poster,
       source_code_link: "https://github.com/Srividya-R123/Web-Development.git",
     },
     {
@@ -379,7 +461,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: simple,
       source_code_link: "https://github.com/Srividya-R123/Web_development_assignment.git",
     }
   

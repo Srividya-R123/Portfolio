@@ -63,7 +63,12 @@ const IslandCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         <ambientLight intensity={0.5} />
+<<<<<<< HEAD:src/components/canvas/Computers.jsx
+        
+        <Computers isMobile={isMobile} />
+=======
         <Island isMobile={isMobile} />
+>>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7:src/components/canvas/Island.jsx
       </Suspense>
 
       <Preload all />

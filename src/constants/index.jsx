@@ -39,7 +39,6 @@ import {
     jobit,
     tripguide,
     threejs,
-<<<<<<< HEAD
     Flag,
     Food,
     color,
@@ -49,22 +48,6 @@ import {
     Forage,
     Pentafox,
     Simplilearn
-=======
-    learning,
-    guidance,
-    management,
-    cocurricular,
-    fun,
-    friendship,
-    sp,
-    mi,
-    per,
-    wc,
-    wa,
-    rw,
-    rc,
-    star
->>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7
   } from "../assets";
   
   export const navLinks = [
@@ -84,7 +67,6 @@ import {
   
   const services = [
     {
-<<<<<<< HEAD
       title: "Python Complete course for Python Beginners",
       icon: udemy,
       link:"https://drive.google.com/file/d/1hvsYnP3caId3SbptRPf-7FeEi6TqMQWN/view?usp=drive_link",
@@ -103,36 +85,6 @@ import {
       title: "Networking Essentials",
       icon: cisco,
       link:"https://drive.google.com/file/d/1ev5KgmwH06MR6n4DQ6AvUF9cGcqZ2zy-/view?usp=drive_link",
-=======
-      title: "Fun",
-      content:"An open source of books filled with vibrant ideas.",
-      icon: fun,
-    },
-    {
-      title: "Learning",
-      content:"Inspires students to aspire.",
-      icon: learning,
-    },
-    {
-      title: "Friendship",
-      content:"An oppurtunity to find you.",
-      icon: friendship,
-    },
-    {
-      title: "Co-curricular",
-      content:"Grand event hosted by PDA related to academics.",
-      icon: cocurricular,
-    },
-    {
-      title: "Management",
-      content:"This is the song of all hearts in MIT!!",
-      icon: management,
-    },
-    {
-      title: "Guidance",
-      content:"We are all ears !! Let us Know !!",
-      icon: guidance,
->>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7
     },
     {
       title: "Basics of UI and UX",
@@ -213,7 +165,6 @@ import {
   
   const experiences = [
     {
-<<<<<<< HEAD
       title: "Multi-robot Automatic Scheduling System",
       company_name: "HTML CSS Flask MongoDB Atlas Machine Learning",
       icon:cb,
@@ -244,14 +195,6 @@ import {
       icon: gro,
       iconBg: "#E6DEDD",
       date: "Aug 2023 - Sep 2023",
-=======
-      title: "Spontania",
-      company_name: "ReactJS",
-      image:sp,
-      icon: star,
-      iconBg: "#B71C1C",
-      date: "25-11-2021",
->>>>>>> 02426251fc738945337ef3bd87b681f1d220acf7
       source_code_link:"https://github.com/Srividya-R123/GroceryWebsite.git",
       points: ["PDA proudly presents the MEGA EVENT, Spontania'21 for the year 2021 in association with AUSEC, CSMIT, MIT Robotics Association, Photo Society of MIT, Quiz Club MIT, Tamil Mandram, TED Club of MIT, The MIT Quill with the germane theme “United we stand”!"
        
